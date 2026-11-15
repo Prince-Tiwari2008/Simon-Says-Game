@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="high-score">
+        <span>🏆 Highest Score</span>
+        <h2 id="highScore">0</h2>
+    </div>
+
+    <div class="game-container">
+        <h1><b>Simon Says</b> &nbsp;<span>Game</span></h1>
+        <h3>Press Start to begin the game.</h3>
+        <button id="startBtn">START</button>
+        <div class="container">
+            <div class="blue btn" id="blue" type="button"></div>
+            <div class="orange btn" id="orange" type="button"></div>
+            <div class="green btn" id="green" type="button"></div>
+            <div class="pink btn" id="pink" type="button"></div>
+        </div>
+    </div>
+
+    <div class="game-over">
+        <h2>GAME OVER!</h2>
+        <p>Better luck next time!</p>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
